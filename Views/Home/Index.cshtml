@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Home Page";
+    var username = User.Identity?.Name ?? string.Empty;
+}
+
+<div class="w-100 min-vh-100 d-flex flex-column align-items-center justify-content-center text-center">
+    <h1 class="display-4">Welcome User : @username</h1>
+
+    <form asp-controller="Auth" asp-action="Logout" method="post" class="mt-4">
+        @Html.AntiForgeryToken()
+        <button type="submit" class="btn btn-outline-secondary">Logout</button>
+    </form>
+</div>
