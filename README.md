@@ -1,6 +1,6 @@
 # TCCProject
 
-โปรเจกต์ตัวอย่างระบบ Login/Register ด้วย ASP.NET Core MVC (.NET 10) ใช้ Entity Framework Core, FluentValidation และ JWT สำหรับยืนยันตัวตน
+โปรเจกต์ระบบ Login/Register ด้วย ASP.NET Core MVC (.NET 10) ใช้ Entity Framework Core, FluentValidation และ JWT สำหรับยืนยันตัวตน
 
 ## ฟังก์ชันหลัก
 
